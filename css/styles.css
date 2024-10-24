@@ -1,30 +1,250 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-}
-ul,li,ol{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    list-style: none;
-
-}
-
-a{
-    text-decoration: none;
-}
-
 @font-face {
     font-family: 'trebuc';
-    src: url('../trebuchet-ms-2/trebuc.ttf') format('woff2')
+    src: url('../trebuchet-ms-2/trebuc.ttf') format('woff2');
+}  
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+:root {
+    --s-primary: #ef4a23;
+    --s-secondary: #3749bb;
+    --s-hf-bg: #081621;
+    --s-b-bg: #f2f4f8;
+    --s-m-bg: #6e2594;
+    --s-s-bg: rgba(55,73,187,.05);
+    --s-f-c1: #666;
+    --s-f-c2: #fff
 }
 
-.testFont{
-    font-family: 'trebuc';
+@media (min-width: 576px) {
+    .container {
+        max-width:540px
+    }
 }
+
+@media (min-width: 768px) {
+    .container {
+        max-width:720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width:960px
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width:100%
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        max-width:1320px
+    }
+}
+
+body {
+    font-family: 'trebuc';
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+}
+
+/* Featured Category Start */
+.m-home{
+    margin-top:50px;
+}
+
+.m-header{
+    text-align : center;
+}
+.Fcategory h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.m-blurb {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.Fcategory p {
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+}
+
+.cat-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.cat-item {
+    flex: 0 0 12.33%;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cat-item .cat-item-inner {
+    display: block;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 15px 0;
+}
+
+.cat-item .cat-item-inner {
+    display: block;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    padding: 15px 0
+}
+.cat-item p {
+    font-size: 16px;
+    margin: 0
+}
+.cat-item .cat-icon {
+    display: inline-block;
+    padding: 15px;
+}
+
+.cat-item:hover a {
+    text-decoration: none;
+}
+
+.cat-item:hover p {
+    color: var(--s-primary)
+}
+
+/* Store Location */
+
+.store-finder {
+    background: linear-gradient(125deg,#0bc1e9,#3749bb,#00237e);
+    animation: gradient 15s ease infinite;
+    color: #fff
+}
+
+.store-finder .txt h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 5px
+}
+
+.store-finder .txt p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff
+}
+
+.store-finder .btn.find {
+    background: #ef9919;
+    padding: 17px 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    height: auto;
+    border: none;
+    width: fit-content;
+    margin-left: auto
+}
+
+.store-finder .btn.find:hover {
+    box-shadow: 0 60px rgba(0,0,0,.2) inset
+}
+
+.store-finder .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%
+}
+
+
+.store-finder .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%
+}
+
+h1,h2,h3,h4,h5,h6 {
+margin-top: 0;
+font-weight: bold
+}
+
+.store-finder h3 {
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 1px;
+margin-bottom: 5px
+}
+
+a {
+text-decoration: none;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+color: var(--s-primary)
+}
+
+a:hover {
+text-decoration: underline
+}
+
+.material-icons {
+height: 24px;
+width: 24px
+}
+
+.material-icons.lg {
+height: 48px;
+width: 48px;
+font-size: 48px
+}
+
+.btn {
+background: var(--s-secondary);
+display: inline-block;
+border: 2px solid var(--s-secondary);
+padding: 0 20px;
+margin: 0;
+height: 42px;
+line-height: 38px;
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer
+}
+
+.btn:hover {
+box-shadow: 0 50px rgba(0,0,0,.2) inset;
+color: #fff;
+text-decoration: none
+}
+
+.p-30 {
+padding: 30px
+}
+
+.overlay.open {
+display: block
+}
+
+
+.d-fc {
+display: flex;
+align-items: center;
+gap: 10px
+}
+/* Featured Category Start */
+
 /* =========== description part start here =========== */
 #description{
     margin-top: 50px;
@@ -41,6 +261,7 @@ a{
 .description_details p {
     margin-bottom: 10px;
     font-family: 'trebuc';
+    font-weight: 300;
     font-size: 15px;
     color: #01132d;
     line-height: 26px;
@@ -54,7 +275,7 @@ a{
 }
 .description_details h3{
     font-family: 'trebuc';
-    font-weight: normal;
+    font-weight: 500;
     font-size: 18px;
     margin: 25px 0 12px;
     line-height: 26px;
