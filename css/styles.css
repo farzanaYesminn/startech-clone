@@ -58,6 +58,190 @@ body {
     background-color: #f2f4f8;
 }
 
+
+
+/* ========== header section start ========== */
+#header .row{
+    margin: 0 auto;
+}
+
+#header .col-lg-9{
+
+}
+
+/* #header .col-lg-3{
+    background: #ffffff;
+    margin: 0 px;
+} */
+#header .col-lg-3 .row{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#header .col-lg-3 .row .row-lg-7{
+    background: #ffe8a1;
+}
+
+#header .col-lg-3 .row .row-lg-7 h5{
+    margin-top: 20px;
+}
+
+
+#header .col-lg-3 .row .row-lg-7 p{
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    margin: 0 0 14px;
+    font-size: 14px;
+    opacity: .5;
+}
+
+
+
+
+.search-container{
+    background: #ffffff;
+    border: none;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 5px 2px;
+}
+
+#header .col-lg-3 .row .row-lg-7 input{
+    padding: 5px;
+    border: 1px solid #ffffff;
+}
+
+#header .col-lg-3 .row .row-lg-7 button{ 
+    padding: 5px 0px;
+    background: none;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+#header .col-lg-3 .row .row-lg-5{
+    /* background: yellow; */
+}
+
+element {
+	padding: 5px 60px;
+    border-radius: 4px;
+    color: #6f20ee;
+    font-weight: 300;
+}
+
+.btn-compariosn{
+    padding: 20px 20px;
+    color: #6f20ee;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid #6f20ee ;
+    margin-bottom: 20px;
+
+}
+
+.row-lg-5{
+    margin-top: 30px;
+}
+
+
+.row-lg-5 img{
+   width: 100%;
+   height: 100%;
+}
+
+
+/* ========== header section end ============ */
+
+
+/* ========== marque section start ========== */
+#mardque{
+    z-index: 10;
+}
+
+#marque .row .service-card{
+    display: flex;
+    gap: 20px;
+}
+
+
+#marque .row .service-card{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.card-item{
+    margin-top: 60px;
+    padding: 15px 1px 15px 15px;
+    background: #FFF;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#marque .avatar{
+    width: 50px;
+    height: 50px;
+    background: #ef4a23;
+    border-radius: 50%;
+    position: relative;
+}
+
+#marque .avatar i{
+   margin-top: 15px;
+   margin-left: 15px;
+   
+  
+}
+
+.name-des{
+    margin-left: 20px;
+    
+}
+
+
+.name-des h2{
+        color: #000;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+}
+
+.name-des p{
+        color: #444;
+        margin: 0;
+}
+
+
+
+#h-text{
+    margin-top: 30px;
+    
+    
+}
+
+#h-text .row{
+    background: #ffffff;
+    margin-left: 10pX;
+    margin-right: 10px;
+    padding: 10px ;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* ========== marque section start ========== */
+
 /* Featured Category Start */
 .m-home{
     margin-top:50px;
