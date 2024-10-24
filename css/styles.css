@@ -23,3 +23,253 @@ a{
 .testFont{
     font-family: 'trebuc';
 }
+
+
+
+/* footer part css start -------------- */
+#footer{
+    background: #081621;
+
+}
+#footer h4{
+    color: #ffffff;
+    margin: 30px;
+    font-size: 14px;
+}
+#footer .contact-us{
+    box-sizing: border-box;
+}
+#footer .contact-us .hotline-call{
+    display: flex;
+    column-gap: 12px;
+    flex-direction: row;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#footer .contact-us:hover .hotline-call{
+    border: 1px solid #ef4a23;
+}
+
+#footer .contact-us .hotline-location{
+    display: flex;
+    column-gap: 12px;
+    flex-direction: row;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+ #footer .contact-us:hover .hotline-location{
+    border: 1px solid #ef4a23;
+ } 
+
+
+#footer .contact-us .hotline-call .call{
+    border-right: 1px solid rgba(255,100,100,.2) ;
+    padding-right: 15px ;
+}
+#footer .contact-us .hotline-location .location{
+    border-right: 1px solid rgba(255,100,100,.2) ;
+    padding-right: 15px ;
+}
+
+#footer .contact-us .hotline-call a i{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    padding: 10px 20px 20px;
+}
+#footer .contact-us .hotline-location a i{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    padding: 10px 20px 20px;
+}
+
+#footer .contact-us .hotline-call .time{
+    padding: 10px;    
+}
+#footer .contact-us .hotline-location .store{
+    padding: 10px;    
+}
+#footer .contact-us .hotline-call .time p{
+    color: rgba(255,255,255,.5);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 4px;
+}
+#footer .contact-us .hotline-location .store p{
+    color: rgba(255,255,255,.5);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 4px;
+}
+
+#footer .contact-us .hotline-call .time h5 a{
+    color: #ef4a23;
+    font-size: 20px;
+    line-height: 28px;
+    font-size: normal;
+}
+#footer .contact-us .hotline-location .store h5 a{
+    color: #ef4a23;
+    font-size: 20px;
+    line-height: 28px;
+    font-size: normal;
+}
+#footer .footer-link{
+    box-sizing: border-box;
+}
+#footer .footer-link ul {
+    display: flex;
+    flex-direction: column;
+
+}
+#footer .footer-link ul li{
+    padding-bottom: 20px;
+    
+}
+#footer .footer-link ul li a{
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+#footer .footer-link ul li:hover a{
+    color: #ef4a23;
+    text-decoration: underline;
+}
+#footer .footerleft-link .company{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 5px; 
+    line-height: 26px;
+}
+#footer .footerleft-link p{
+    color: #666;
+}
+#footer .footerleft-link p a{
+    color: #ef4a23;
+    line-height: 26px;
+    font-size: 14px;
+    background-color: transparent;
+
+}
+#footer .footerleft-link p .email{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: sans-serif;
+ }
+ #footer .footer-social{
+    margin-top: 30px;
+    border-top: 1px solid #666;
+ }
+ #footer .social{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px 0 0;
+    
+ }
+ #footer .social-link{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+
+ }
+
+ #footer .social .texti{
+    color: #666;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 26px;
+    align-items: center;
+    
+    
+ }
+
+ #footer .social .social-link span{
+    display: flex;
+    column-gap: 12px;
+    padding: 10px;
+    flex-direction: row;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#footer .social .social-link span a i{
+color: #fff;
+height: 24px;
+width: 24px;
+font-size: 18px;
+
+}
+#footer .social .social-link span p{
+    color: #666;
+    font-size: 10px;
+    margin-bottom: 2px;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+#footer .social .social-link span h5 a{
+    font-size: 14px;
+    line-height: 1;
+    display: block;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 8px;
+}
+#footer .footer-social .socialicon .iconlink{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+
+}
+#footer .footer-social .socialicon .iconlink li{
+    display: flex;
+    justify-content: center;
+}
+#footer .footer-social .socialicon .iconlink li a{
+    height: 34px;
+    width: 34px;
+    background:hwb(60 73% 27% / 0.2) ;
+    display: inline-block;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 50px;    
+}
+#footer .footer-social .socialicon .iconlink li a i{
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer part css end -------------- */
