@@ -1,20 +1,23 @@
+/* =======================  Common Css start ====================== */
 *{
     margin: 0;
     padding: 0;
-    outline: 0;
     box-sizing: border-box;
 }
-ul,li,ol{
-    list-style-type: none;
-}
 a{
     text-decoration: none;
-    list-style: none;
-
+    display: inline-block;
 }
-
-a{
-    text-decoration: none;
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+}
+img{
+    display: block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
 }
 
 @font-face {
@@ -25,47 +28,116 @@ a{
 .testFont{
     font-family: 'trebuc';
 }
-/* =========== description part start here =========== */
-#description{
-    margin-top: 50px;
-    padding-bottom: 50px;
+
+
+
+/* =========== Featured Products start here =========== */
+
+#Featured_Products{
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
-.description_details h1{
-    font-family: 'trebuc';
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    color: black;
-}
-.description_details p {
-    margin-bottom: 10px;
-    font-family: 'trebuc';
-    font-size: 15px;
-    color: #01132d;
-    line-height: 26px;
-}
-.description_details a{
-    color: #ef4a23;
-    background-color: transparent;
-}
-.description_details a:hover{
-    border-bottom: 2px solid#ef4a23;
-}
-.description_details h3{
-    font-family: 'trebuc';
-    font-weight: normal;
-    font-size: 18px;
-    margin: 25px 0 12px;
-    line-height: 26px;
-    color: black;
-}
-.description_details h4 {
+#Featured_Products h3  {
+    text-align: center;
     font-family: 'trebuc';
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 5px;
     color: black;
-} 
-/* =========== description part end here =========== */
+}
+
+#Featured_Products p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'trebuc';
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+}
+#Featured_Products .card{
+    position: relative;
+    max-width: 254px;
+    height: 380px;
+    padding: 30px 8px 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    margin-top: 24px;
+}
+#Featured_Products .card .image{
+      display: flex;
+      justify-content: center; 
+      border-bottom: 3px solid rgba(55, 73, 187, .03);   
+     
+}
+
+
+
+#Featured_Products .card .image:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#Featured_Products .card h2 a {
+      margin-top: 20px;
+      text-align: left;
+      padding-left: 5px;
+      font-family: 'trebuc';
+      font-size: 15px;
+      color: #01132d;
+
+}
+
+#Featured_Products .card h2 a:hover{
+   color: #ef4a23;
+   text-decoration: underline;
+}
+
+#Featured_Products .card .price{ 
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+}
+#Featured_Products .card .price h5{
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ef4a23;
+}
+#Featured_Products .card .price h6{
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #161515;
+}
+#Featured_Products .card .save{
+     position: absolute;
+     top: 16px;
+     left: 0;
+           
+}
+#Featured_Products .card .save p{
+    background: #6e2594;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    line-height: 14px;
+    margin-bottom: 2px;
+    border-radius: 0 20px 20px 0;
+    flex: 0 0 auto;
+           
+}
+
+
+
+
+
+
+
+/* =========== Featured Productst end here =========== */
