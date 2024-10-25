@@ -580,8 +580,11 @@ gap: 10px
 }
 #footer h4{
     color: #ffffff;
-    margin: 30px;
+    margin: 30px 0;
     font-size: 14px;
+}
+#footer .aboutus h4{
+    margin-left: 32px;
 }
 #footer .contact-us{
     box-sizing: border-box;
@@ -595,7 +598,7 @@ gap: 10px
     align-items: center;
     margin-bottom: 25px;
 }
-#footer .contact-us:hover .hotline-call{
+#footer .contact-us .hotline-call:hover {
     border: 1px solid #ef4a23;
 }
 
@@ -608,7 +611,7 @@ gap: 10px
     align-items: center;
     margin-bottom: 25px;
 }
- #footer .contact-us:hover .hotline-location{
+ #footer .contact-us .hotline-location:hover{
     border: 1px solid #ef4a23;
  } 
 
@@ -676,6 +679,7 @@ gap: 10px
 }
 #footer .footer-link ul li{
     padding-bottom: 20px;
+    list-style: none;
     
 }
 #footer .footer-link ul li a{
@@ -698,18 +702,17 @@ gap: 10px
 #footer .footerleft-link p{
     color: #666;
 }
-#footer .footerleft-link p a{
-    color: #ef4a23;
-    line-height: 26px;
-    font-size: 14px;
-    background-color: transparent;
-
-}
-#footer .footerleft-link p .email{
-    margin-bottom: 8px;
+#footer .footerleft-link .email{
+    margin-top: 20px;
     font-size: 14px;
     line-height: 26px;
     font-family: sans-serif;
+    color: #666;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+ }
+ #footer .footerleft-link .email a{
+    margin-top: 20px;
  }
  #footer .footer-social{
     margin-top: 30px;
@@ -720,6 +723,7 @@ gap: 10px
     justify-content: space-between;
     flex-direction: row;
     padding: 20px 0 0;
+    align-items: center;
     
  }
  #footer .social-link{
@@ -736,10 +740,13 @@ gap: 10px
     font-family: sans-serif;
     line-height: 26px;
     align-items: center;
+    margin-top: 10px;
     
     
  }
-
+ #footer .social .social-link{
+    align-items: center;
+ }
  #footer .social .social-link span{
     display: flex;
     column-gap: 12px;
@@ -774,34 +781,56 @@ font-size: 18px;
     color: #fff;
     margin-top: 8px;
 }
-#footer .footer-social .socialicon .iconlink{
+#footer .footer-social .socialicon .icon{
     display: flex;
-    justify-content: flex-end;
     flex-direction: row;
-    
-
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
 }
-#footer .footer-social .socialicon .iconlink li{
-    display: flex;
-    justify-content: center;
-}
-#footer .footer-social .socialicon .iconlink li a{
-    height: 34px;
-    width: 34px;
-    background:hwb(60 73% 27% / 0.2) ;
-    display: inline-block;
-    justify-content: center;
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center;
+#footer .footer-social .socialicon .icon li{
+    list-style: none;
     margin-left: 10px;
-    color: #fff;
-    border-radius: 50px;    
-}
-#footer .footer-social .socialicon .iconlink li a i{
-    padding: 8px;
+    background: rgba(2, 0, 0, 0.1);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+
+#footer .footer-social .socialicon .icon li:hover{
+    background: #00237e;
+}
+#footer .footer-social .socialicon .icon li a i{
+    font-size: 26px;
+    line-height: 26px;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+
+}
+#footer .footer-social{
+    border-bottom: 1px solid #666;
+    padding-bottom: 20px;
+}
+#footer .footer-rights .row{ 
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+#footer .footer-rights .row p{
+    color: #666;
+    font-size: 12px;
+    line-height: 26px;
+    font-family: sans-serif;
+}
+
+#footer .footer-rights .right {
+    justify-content: end;
+    display: flex;
 }
 
 /* footer part css end -------------- */
